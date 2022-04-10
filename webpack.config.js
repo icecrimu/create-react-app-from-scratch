@@ -20,7 +20,7 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        user: "babel-loader"
+        use: "babel-loader"
       }
     ]
   }
